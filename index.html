@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>genie-clone</title>
+    <script
+      src="https://kit.fontawesome.com/0f0e16d051.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body style="overflow-x: hidden;">
+    <header>
+      <div class="top-genie">
+        <i class="fas fa-ticket-alt"></i>
+        <span
+          style="
+            color: #0eb6e6;
+            font-weight: 400;
+            font-family: 'Lobster', cursive;
+            font-size: 40px;
+          "
+        >
+          genie</span
+        >
+        <i class="fas fa-user-alt"></i>
+      </div>
+      <nav class="menues">
+        <a class="menu pick">홈</a>
+        <a href="chart.html" class="menu">지니차트</a>
+        <a class="menu">최신음악</a>
+        <a class="menu">방송</a>
+        <a class="menu">추천</a>
+      </nav>
+      <hr style="margin-top: -10px;" />
+      <div class="musicKind">
+        <div class="last">
+          <span class="music" style="font-size: 18px;">최신음악</span>
+          <i class="fas fa-arrow-right title"></i>
+        </div>
+        <div class="where">
+          <span class="music title">전체</span>
+          <span class="music title">국내</span>
+          <span class="music title">국외</span>
+        </div>
+      </div>
+      <div class="musics" style="overflow: scroll; overflow-y: hidden;">
+        <div class="music">
+          <img src="images/book.jpg" alt="" />
+          <div class="music-in">
+            <p style="margin-bottom: -10px; font-weight: 800;">책 속에 나와</p>
+            <p style="opacity: 0.8;">빨간우산</p>
+          </div>
+        </div>
+        <div class="music">
+          <img src="images/부엉이.jpg" alt="" />
+          <div class="music-in">
+            <p style="margin-bottom: -10px; font-weight: 800;">부엉부엉</p>
+            <p style="opacity: 0.8;">부엉집사</p>
+          </div>
+        </div>
+        <div class="music">
+          <img src="images/dog.jpg" alt="" />
+          <div class="music-in">
+            <p style="margin-bottom: -10px; font-weight: 800;">나좀 안아줘</p>
+            <p style="opacity: 0.8;">추운개</p>
+          </div>
+        </div>
+        <div class="music">
+          <img src="images/painter.jpg" alt="" />
+          <div class="music-in">
+            <p style="margin-bottom: -10px; font-weight: 800;">수많은 갈림길</p>
+            <p style="opacity: 0.8;">레인보우</p>
+          </div>
+        </div>
+        <div class="music">
+          <img src="images/space.jpg" alt="" />
+          <div class="music-in">
+            <p style="margin-bottom: -10px; font-weight: 800;">나혼자 고독</p>
+            <p style="opacity: 0.8;">달빛아래</p>
+          </div>
+        </div>
+        <div class="music">
+          <img src="images/robot.jpg" alt="" />
+          <div class="music-in">
+            <p style="margin-bottom: -10px; font-weight: 800;">매일 정해진,</p>
+            <p style="opacity: 0.8;">Today</p>
+          </div>
+        </div>
+        <div class="music">
+          <img src="images/who.png" alt="" />
+          <div class="music-in">
+            <p style="margin-bottom: -10px; font-weight: 800; color: black;">
+              거짓말
+            </p>
+            <p style="opacity: 0.8; color: black;">피노키오</p>
+          </div>
+        </div>
+        <div class="music">
+          <img src="images/앵무새.jpg" alt="" />
+          <div class="music-in">
+            <p style="margin-bottom: -10px; font-weight: 800;">
+              숨겨진 날개를피고
+            </p>
+            <p style="opacity: 0.8;">무새앵</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="charts">
+        <div class="chart-title">
+          <div class="title" style="margin-right: 3px; font-size: 18px;">
+            지니차트
+          </div>
+          <i
+            class="fas fa-arrow-right"
+            style="opacity: 0.5; margin-right: 7px;"
+          ></i>
+          <div class="time" style="opacity: 0.5; font-size: 12px;">
+            오후 3:00
+          </div>
+        </div>
+        <hr />
+        <div class="chart">
+          <div>1</div>
+          <div class="container">
+            <img src="images/악마.jpg" alt="" />
+            <div class="sing-title">
+              악마를 보았는가?
+              <div>다크서클</div>
+            </div>
+          </div>
+          <i class="fas fa-play-circle"></i>
+        </div>
+        <hr />
+        <div class="chart">
+          <div>2</div>
+          <div class="container">
+            <img src="images/벽화.jpg" alt="" />
+            <div class="sing-title">
+              초록얼굴 노란선글라스
+              <div>슈렉</div>
+            </div>
+          </div>
+          <i class="fas fa-play-circle"></i>
+        </div>
+        <hr />
+        <div class="chart">
+          <div>3</div>
+          <div class="container">
+            <img src="images/개구리.jpg" alt="" />
+            <div class="sing-title">
+              눈가리고 아웅~
+              <div>개구리 삼형제</div>
+            </div>
+          </div>
+          <i class="fas fa-play-circle"></i>
+        </div>
+        <hr />
+      </div>
+
+      <div class="broadcast" style="overflow: scroll; overflow-y: hidden;">
+        <div class="broad-title">
+          방송
+          <i class="fas fa-arrow-right" style="opacity: 0.5;"></i>
+        </div>
+        <div class="videos">
+          <div class="video">
+            <img src="images/방송1.jpg" alt="" />
+            <div class="video-title">
+              <div class="title">[2회/선공개] '뿌듯한...'</div>
+              <div class="where">외국 위원회</div>
+              <div class="when broad">
+                2020.05.07 <i class="fas fa-play"></i> 1
+                <i class="fas fa-heart"></i> 0
+              </div>
+            </div>
+          </div>
+          <div class="video">
+            <img src="images/방송2.jpg" alt="" />
+            <div class="title">[레저드모음] '매운거야 너...'</div>
+            <div class="where">무모한 도전</div>
+            <div class="when broad">
+              2020.05.07 <i class="fas fa-play"></i> 1
+              <i class="fas fa-heart"></i> 0
+            </div>
+          </div>
+
+          <div class="video">
+            <img src="images/방송3.jpg" alt="" />
+            <div class="title">[356화] '이젠 혼자가...'</div>
+            <div class="where">혼자 살지말자</div>
+            <div class="when broad">
+              2009.03.07 <i class="fas fa-play"></i> 1
+              <i class="fas fa-heart"></i> 0
+            </div>
+          </div>
+
+          <div class="video">
+            <img src="images/방송4.jpg" alt="" />
+            <div class="title">[시즌3 3화] '대성공...'</div>
+            <div class="where">도망치자</div>
+            <div class="when broad">
+              2020.04.30 <i class="fas fa-play"></i> 1
+              <i class="fas fa-heart"></i> 0
+            </div>
+          </div>
+          <div class="video">
+            <img src="images/방송5.jpg" alt="" />
+            <div class="title">'그냥 놀아제발...'</div>
+            <div class="where">제발 놀자</div>
+            <div class="when broad">
+              2020.01.03 <i class="fas fa-play"></i> 1
+              <i class="fas fa-heart"></i> 0
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reco-title">오늘의 선곡</div>
+      <div class="recommends" style="overflow: scroll; overflow-y: hidden;">
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">세상에서 제일 크고 맛있는 곰</div>
+            <div>DJ 젤리</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/곰돌이.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">나무 구름 강 그리고 나무</div>
+            <div>DJ 나무엇인가</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/나무.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">무릎꿇고 비니 제발 비니</div>
+            <div>DJ 비니</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/비니.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">사진과 여행에 듣기 좋은</div>
+            <div>DJ 렌즈</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/사진.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">소장각인 노래들 모음</div>
+            <div>DJ 머니머니 돈좀 주니</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/신용카드.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">집에서 듣기좋은 음악</div>
+            <div>DJ 아파았트</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/아파트.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">평범한 일상속 다른세계</div>
+            <div>DJ 다비치 안경점</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/안경.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">커피마시며 듣기 좋은곡</div>
+            <div>DJ 카페</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/커피.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">색칠하며 듣기좋은 곡모음</div>
+            <div>DJ 무지개</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/컬러.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+        <div class="recommend">
+          <div class="information" style="position: relative;">
+            <div>추천선곡</div>
+            <div class="second">복고풍 스타일 music</div>
+            <div>DJ 고고씽</div>
+          </div>
+          <div style="position: relative;">
+            <img class="trans" src="images/흑백.jpg" alt="" />
+            <div
+              style="
+                left: 42px;
+                width: 70px;
+                bottom: 35px;
+                font-size: 1.8em;
+                position: absolute;
+              "
+            >
+              <p class="p">15</p>
+              <p class="p" style="font-size: 17px;">Songs</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="culture-title">뮤직 & 컬쳐</div>
+      <div
+        class="culture-wrapper"
+        style="
+          width: 100%;
+          margin: 0px 3px;
+          margin-bottom: 50px;
+          position: relative;
+        "
+      >
+        <img
+          src="images/여자.jpg"
+          style="max-width: 100%; height: auto; opacity: 0.85;"
+          alt=""
+        />
+        <div
+          style="
+            left: 40%;
+            top: 35%;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            color: #ffffff;
+          "
+        >
+          <p>홍이삭, 이별 후의 외로운 독백</p>
+          <p>[네가 없는 하루] 녹음 현장 공개</p>
+        </div>
+      </div>
+      <hr />
+      <div class="new-video">
+        <img src="images/아기.jpg" alt="" />
+        <div class="new-title">
+          <p style="margin-bottom: 1px;">
+            신동 아기의 첫 앨범 장난감 실로폰, 그 위대함
+          </p>
+          <p style="font-size: 13px; color: #8c8c8c; margin-top: 3px;">
+            아기와의 직접 인터뷰
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="new-video">
+        <img src="images/피아노.jpg" alt="" />
+        <div class="new-title">
+          <p style="margin-bottom: 1px;">
+            피아니스트 솔로, 시아니스키의 첫 솔로앨범
+          </p>
+          <p style="font-size: 13px; color: #8c8c8c; margin-top: 3px;">
+            제작과정 공개
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="new-album">
+        <div class="album">
+          <img
+            src="images/여성그룹.jpg"
+            style="max-width: 100%; height: auto;"
+            alt=""
+          />
+          <div>하하가 프로듀싱한 신인 그룹 '설리게'</div>
+          <div class="new-reco">신보 추천</div>
+        </div>
+
+        <div class="album" style="margin-left: 20px;">
+          <img
+            src="images/힙합.jpg"
+            style="max-width: 100%; height: auto;"
+            alt=""
+          />
+          <div>엄청난 발재간의 춤꾼 '꽃게'</div>
+          <div class="new-reco">신보 추천</div>
+        </div>
+      </div>
+      <div class="new-album">
+        <div class="album">
+          <img
+            src="images/디제이.jpg"
+            style="max-width: 100%; height: auto;"
+            alt=""
+          />
+          <div>코로나에 지친 당신, 스트레스를 풀어줄 DJ</div>
+          <div class="new-reco">신보 추천</div>
+        </div>
+
+        <div class="album" style="margin-left: 20px;">
+          <img
+            src="images/춤.jpg"
+            style="max-width: 100%; height: auto;"
+            alt=""
+          />
+          <div>그룹'쿨'이 가진 섬세한 감성, 섬세한 몸짓</div>
+          <div class="new-reco">신보 추천</div>
+        </div>
+      </div>
+    </main>
+    <footer style="margin-top: 20px; text-align: center;">
+      <i class="fas fa-arrow-circle-up"></i>
+      <span>맨위로</span>
+      <div class="fotter-App">
+        지니 App 설치
+      </div>
+      <div style="color: #63717d; margin-bottom: 18px;">
+        이용약관 | 개인정보처리방침
+      </div>
+      <div class="end">(주)지니뮤직 | 대표이사: 조훈</div>
+      <div class="end">
+        서울 강남구 테헤란로415 (L7HOTELS강남타워 6,7,8층) 문의전화: 1577-5337
+      </div>
+      <div class="end">
+        사업자등록번호: 314-81-03453 통신판매업신고: 2013-서울강남-01302
+      </div>
+      <div class="end">호스팅제공자: (주)지니뮤직</div>
+      <div class="end" style="margin-top: 17px;">
+        © GENIE MUSIC CORP. ALL RIGHTS RESERVED
+      </div>
+    </footer>
+  </body>
+</html>
