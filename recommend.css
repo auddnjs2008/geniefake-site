@@ -1,0 +1,96 @@
+.reco-top {
+  font-size: 18px;
+  opacity: 0.8;
+}
+
+.login {
+  text-align: center;
+}
+
+.login .service {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.login .sub {
+  margin: 0 auto;
+  padding: 8px 0px;
+  width: 100px;
+  border: 1px solid #82d3ef;
+  border-radius: 20px;
+  color: #82d3ef;
+  margin-bottom: 40px;
+}
+
+.line {
+  text-align: center;
+}
+.line-title {
+  margin-top: 22px;
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #0eb6e6;
+}
+.kind {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.kind .kd {
+  border: 1px solid #eceef1;
+  border-radius: 27px;
+  margin-right: 7px;
+  padding: 10px 20px;
+}
+
+.line .sub {
+  margin-top: 20px;
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.img-line {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: -8px;
+  width: 100%;
+  height: 100%;
+  position: relative;
+
+  background: rgba(125, 131, 133, 0.7);
+}
+.on-write {
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 62px;
+  position: absolute;
+  color: white;
+}
+
+.on-write .title {
+  font-size: 13px;
+}
+
+p.title:before {
+  content: "";
+  width: 70px;
+  display: block;
+  border-bottom: 1px solid #9ea0a0;
+  border-width: 1.5px;
+  margin-left: 85px;
+  margin-top: 1px;
+}
+
+p.title:after {
+  content: "";
+  width: 70px;
+  display: block;
+  border-bottom: 1px solid #9ea0a0;
+  border-width: 1.5px;
+  margin-left: 85px;
+  margin-top: 1px;
+}

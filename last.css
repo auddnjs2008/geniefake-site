@@ -1,0 +1,32 @@
+.last-where {
+  text-align: end;
+}
+
+.last-where .wh {
+  margin-right: 20px;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.lastes {
+  padding-left: 0px;
+}
+
+.last {
+  display: flex;
+  align-items: center;
+  margin-right: 27px;
+}
+
+.last .last-info {
+  width: 100%;
+  height: 55px;
+  margin-left: 15px;
+}
+
+.last-info .write {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  opacity: 0.5;
+  font-size: 12px;
+}
